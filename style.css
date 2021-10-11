@@ -1,0 +1,25 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    grid-gap: 25px;
+    
+}
+.single{
+    border: 2px solid gold;
+    text-align: center;
+    padding: 3%;
+}
+.countryName{
+    font-style: italic;
+    font-size: 20px;
+    color:deepskyblue;
+}
+.city{
+    font-weight: bold;
+    font-size: 15px;
+    color:yellowgreen;
+}
+#countryDetails img{
+    width: 20%;
+}
